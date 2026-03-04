@@ -8,7 +8,7 @@ const Home = () => {
       <Container>
         <div className=" flex py-4 text-[#ffff] justify-between">
           <img src={mansur} alt="" />
-          <h3>mansur</h3>
+          <h3 className='text-amber-600'>mansur</h3>
           <h3>mansur</h3>
         </div>
       </Container>
