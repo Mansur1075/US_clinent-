@@ -11,8 +11,8 @@ const Bennar = () => {
       <Container>
         <div className="py-5">
           <div className="w-6/12">
-            <h4 className='text-[#FFFF] text-2xl uppercase border-b'>Jimmy Turner</h4>
-            <h2>Professional video editor</h2>
+            <h4 className='w-3/12 pb-2 text-[#FFFF]  uppercase border-b text-[18px] font-medium'>Jimmy Turner</h4>
+            <h2 className=' text-[]'>Professional video editor</h2>
             <p>Making your videos look more cool.</p>
           </div>
           <div className="w-6/12">

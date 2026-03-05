@@ -13,7 +13,7 @@ const Home = () => {
          <div className="">
            <img src={mansur} alt="" />
          </div>
-          <div className="w-7/12 orbitron">
+          <div className="w-7/12 orbitron cursor-pointer">
             <ul className=' flex  gap-20'>
               <li>home</li>
               <li>about</li>
