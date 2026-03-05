@@ -4,9 +4,7 @@ import mansur1 from "../assets/mansur1.png"
 
 const Bennar = () => {
   return (
-    <div className='relative bg-black py-8 overflow-hidden'>
-      <div className='absolute top-0 left-0 w-40 h-40 rounded-full mix-blend-screen filter blur-3xl opacity-70 bg-linear-to-br from-[#9700FF] via-[#57FF1C] to-[#FF0000] animate-pulse'></div>
-      <div className='absolute top-10 left-10 w-24 h-24 rounded-full mix-blend-screen filter blur-2xl opacity-50 bg-linear-to-br from-[#9700FF] via-[#57FF1C] to-[#0038FF] animate-pulse'></div>
+    <div className='relative bg-black pt-8 overflow-hidden'>
       <Container>
         <div className="py-5 flex">
           <div className="w-6/12">
@@ -15,7 +13,7 @@ const Bennar = () => {
             </h4>
             <h2 className=' text-[#FFFF] text-[76px] font-bold font-exo'>Professional video editor</h2>
             <p className=' text-[#ffff] text-[18px] font-exo'>Making your videos look more cool.</p>
-            <button className=' text-[#ffff] text-[20px] font-bold font-exo mt-5 bg-[#6F00A9] px-18'>lets talk</button>
+            <button className=' text-[#ffff] text-[20px] font-bold font-exo mt-5 bg-[#6F00A9] px-18 hover:shadow-[0_0_10px_white] ease-in-out duration-300 hover:rotate-2'>lets talk</button>
           </div>
           <div className="w-6/12">
             <img src={mansur1} alt=""/>
