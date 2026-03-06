@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from './Container'
+import { GoDotFill } from 'react-icons/go'
 
 const About = () => {
     return (
@@ -13,6 +14,20 @@ const About = () => {
                                 Welcome to the cinematic realm of Jimmy, where creativity meets technology to craft visually stunning narratives. With a passion for storytelling and a keen eye for detail, I embark on a journey to transform ordinary footage into extraordinary visual experiences.
                             </p>
 
+                        </div>
+                    </div>
+                    <div className=" flex justify-between pt-20 w-10/12 mx-auto">
+                        <div className="w-3/`12 text-[#ffff]">
+                        <h3 className=' flex items-center gap-4'>Cash cow editing</h3>
+                        </div>
+                        <div className="w-3/`12 text-[#ffff]">
+                        <h3 className=' flex items-center gap-4'>Reels editng <GoDotFill /></h3>
+                        </div>
+                        <div className="w-3/`12 text-[#ffff]">
+                        <h3 className=' flex items-center gap-4 '>animation</h3>
+                        </div>
+                        <div className="w-3/`12 text-[#ffff]">
+                        <h3>podcast edit</h3>
                         </div>
                     </div>
                 </Container>
