@@ -15,7 +15,7 @@ const Best = () => {
              <div className=" flex justify-between pt-15">
                    <div className=" relative w-4/12 group  overflow-hidden hover:scale-105 duration-300 ease-in-out">
                 <img src={rakib1} alt="" />
-                 <div className=" absolute top-0 right-110 w-full h-full bg-[#0000007c] flex pr-14 items-center justify-center  group-hover:right-0 duration-300 ease-in-out">
+                 <div className=" absolute top-0 right-110 w-full h-full bg-[#00000062] flex pr-14 items-center justify-center  group-hover:right-0 duration-300 ease-in-out">
                     <MdOutlineSlowMotionVideo className=' text-[#ffff] text-[80px]'/>
                 </div>
                 </div>
