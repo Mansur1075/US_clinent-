@@ -5,6 +5,9 @@ import './App.css'
 import Home from './componntes/Home'
 import Bennar from './componntes/Bennar'
 import About from './componntes/About'
+import Best from './componntes/Best'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +17,8 @@ function App() {
    <Home/>
    <Bennar/>
    <About/>
+   <Best/>
+   
     </>
   )
 }
