@@ -6,6 +6,7 @@ import Home from './componntes/Home'
 import Bennar from './componntes/Bennar'
 import About from './componntes/About'
 import Best from './componntes/Best'
+import Testimonials from './componntes/Testimonials'
 
 
 
@@ -18,7 +19,7 @@ function App() {
    <Bennar/>
    <About/>
    <Best/>
-   
+   <Testimonials/>
     </>
   )
 }
