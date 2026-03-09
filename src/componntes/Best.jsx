@@ -15,16 +15,14 @@ const Best = () => {
           </h4>
 
           <div className="flex flex-col sm:flex-row justify-between gap-6">
-            {/* Image 1 */}
             <div className="relative w-full sm:w-4/12 group overflow-hidden hover:scale-105 duration-300 ease-in-out">
               <img src={rakib1} alt="" className="w-full h-auto"/>
-              {/* Overlay hidden by default, only appear on hover */}
+
               <div className="absolute top-0 right-0 w-full h-full bg-[#00000062] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
                 <MdOutlineSlowMotionVideo className='text-[#ffff] text-[80px]'/>
               </div>
             </div>
 
-            {/* Image 2 */}
             <div className="relative w-full sm:w-4/12 group overflow-hidden hover:scale-105 duration-300 ease-in-out">
               <img src={rakib2} alt="" className="w-full h-auto"/>
               <div className="absolute top-0 right-0 w-full h-full bg-[#0000007c] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
@@ -32,7 +30,6 @@ const Best = () => {
               </div>
             </div>
 
-            {/* Image 3 */}
             <div className="relative w-full sm:w-4/12 group overflow-hidden hover:scale-105 duration-300 ease-in-out">
               <img src={rakib3} alt="" className="w-full h-auto"/>
               <div className="absolute top-0 right-0 w-full h-full bg-[#0000007c] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
