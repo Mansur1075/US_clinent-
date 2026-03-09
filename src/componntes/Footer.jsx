@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <div className='bg-[#000000] py-10'>
         <Container>
-           <div className="flex">
-  <div className="w-8/12">
+           <div className="flex justify-between">
+  <div className="w-10/12">
     <h3 className='text-[50px] pb-3 text-white font-bold font-exo uppercase border-b-2 border-transparent bg-[linear-gradient(to_right,#FF0000,#42FF00,#2400FF)] bg-size-[100%_2px] bg-no-repeat bg-bottom'>
       I am ready to consult you
     </h3>
@@ -22,7 +22,7 @@ const Footer = () => {
       <button className='bg-[#6F00A9] px-8 py-2'>Send</button>
     </div>
 
-    <div className="flex gap-6 text-white pt-7 items-center font-exo justify-between">
+    <div className="flex gap-6 text-white pt-9 items-center font-exo justify-between ">
       <h5><IoMdCall className='inline-block text-[#6F00A9]'/> +92 455 478 112</h5>
       <h5><FaLocationDot className='inline-block text-[#6F00A9]'/> defense phase 3, lahore pakistan</h5>
       <h5><MdEmail className='inline-block text-[#6F00A9]'/> videoeditor@gmail.com</h5>
