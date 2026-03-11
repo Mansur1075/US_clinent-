@@ -4,10 +4,6 @@ import Container from './Container'
 const Testimonials = () => {
     return (
         <div className='py-20 bg-[#000000]'>
-
-
-
-
             
             <Container>
                 <div>
